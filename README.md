@@ -10,7 +10,7 @@ List airlines:
 GET http://localhost:8237/schiphol-api/airlines?page=0
 ```
 
-List arrivals, filter takes 3 values {today, tomorrow, yesterday}:
+List arrivals, the filter parameter accepts 3 values {today, tomorrow, yesterday}:
 
 ```
 GET http://localhost:8237/schiphol-api/arrivals?page=0&filter=tomorrow
